@@ -1,0 +1,195 @@
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+  color: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  gap: 3.5em;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5em 2em;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.nav a {
+  color: #fff;
+}
+.lists {
+  display: flex;
+  gap: 1em;
+}
+.logo {
+  width: 200px;
+}
+.first-page {
+  position: relative;
+  background-image: url(images/f9/f91.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+}
+.title {
+  width: fit-content;
+  text-align: center;
+  margin: 70px auto 0;
+}
+.heading {
+  font-size: 5.5em;
+  font-weight: bold;
+}
+.content {
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 0.9em;
+  letter-spacing: 0px;
+}
+.second-page {
+  background-color: black;
+  padding: 6em 0;
+  display: flex;
+  justify-content: center;
+}
+.numbers {
+  display: flex;
+  column-gap: 6em;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number h1 {
+  font-size: 8em;
+  font-weight: normal;
+}
+.number p {
+  font-size: 1.2em;
+  letter-spacing: 0.3px;
+}
+
+/* THIRD PAGE */
+.third-page {
+  padding: 8em 0;
+  background-image: url(images/f9/rocket.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+.b1 {
+  margin-left: 3.5em;
+  width: 120%;
+}
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  margin-bottom: 3em;
+}
+.overview p {
+  font-size: 1.2em;
+}
+.overview h1 {
+  font-size: 2.5em;
+}
+
+.chart {
+  border-bottom: 1px solid rgb(134, 134, 134);
+  padding: 1.2em 0;
+  display: flex;
+  justify-content: space-between;
+}
+.chart-b {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+.chart-s {
+  font-weight: bold;
+}
+.chart-s span {
+  color: rgb(134, 134, 134);
+}
+/* FOURTH PAGE */
+.fourth-page {
+  background-image: url(images/f9/f93.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  position: absolute;
+  left: 40px;
+  bottom: 50px;
+}
+.video h1 {
+  font-size: 2.5em;
+}
+
+/* FIFTH PAGE */
+.fifth-page {
+  padding: 14em 0 2em;
+  background-image: url(images/f9/f94.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.five {
+  width: fit-content;
+  margin-left: 2.5em;
+}
+
+.engines {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 3em;
+}
+.engines h1 {
+  font-size: 2.6em;
+}
+
+.sea {
+  display: flex;
+  gap: 2em;
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+.sea .line {
+  width: 1px;
+  background-color: rgb(134, 134, 134);
+}
+.sea span {
+  color: rgb(134, 134, 134);
+}
+.merlin p {
+  max-width: 580px;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 2em;
+}

@@ -1,0 +1,128 @@
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.first-page {
+  background-image: url(images/main.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+.nav {
+  display: flex;
+  gap: 3.5em;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5em 2em;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.nav a {
+  color: #fff;
+}
+.lists {
+  display: flex;
+  gap: 1em;
+}
+.list {
+  cursor: pointer;
+}
+.logo {
+  width: 200px;
+}
+.launch {
+  width: fit-content;
+  position: absolute;
+  bottom: 90px;
+  left: 39px;
+}
+.launch .mini {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.launch .heading {
+  font-weight: bold;
+  font-size: 2.7em;
+  margin-bottom: 25px;
+}
+.launch .btn {
+  border: 2px solid white;
+  width: fit-content;
+  padding: 1.3em 4.6em;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+/* SECOND PAGE */
+.second-page {
+  position: relative;
+  background-image: url(images/second.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+}
+/* THIRD PAGE */
+.third-page {
+  position: relative;
+  background-image: url(images/third.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+}
+/* FOURTH PAGE */
+.fourth-page {
+  position: relative;
+  background-image: url(images/astronaut.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 98vh;
+  color: #fff;
+}
+.adv {
+  max-width: 500px;
+}
+/* LAST PAGE */
+.last-page {
+  position: relative;
+  background-image: url(images/last.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 85vh;
+  color: #fff;
+}
+/* footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  font-size: 0.7em;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+}
