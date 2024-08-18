@@ -41,13 +41,14 @@ img {
 }
 .first-page {
   position: relative;
-  background-image: url(images/f9/f91.jpg);
+  background-image: url(images/f9/F9_4.jpg);
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 100vh;
   color: #fff;
 }
+
 .title {
   width: fit-content;
   text-align: center;
@@ -63,7 +64,7 @@ img {
   font-size: 0.9em;
   letter-spacing: 0px;
 }
-/* second page */
+/* SECOND PAGE */
 .second-page {
   background-color: black;
   padding: 6em 0;
@@ -131,6 +132,7 @@ img {
 .chart-s span {
   color: rgb(134, 134, 134);
 }
+
 /* FOURTH PAGE */
 .fourth-page {
   background-image: url(images/f9/f93.jpg);
@@ -146,20 +148,58 @@ img {
   font-weight: bold;
   position: absolute;
   left: 40px;
-  bottom: 50px;
+  bottom: 80px;
 }
 .video h1 {
-  font-size: 2.5em;
+  font-size: 2.8em;
+  max-width: 600px;
 }
-
 /* FIFTH PAGE */
 .fifth-page {
-  padding: 14em 0 2em;
+  background-color: black;
+  padding: 3em;
+}
+.five {
+  display: flex;
+}
+.f1 {
+  width: 55%;
+  height: 120vh;
+  background-image: url(images/f9/f93.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.unmatched {
+  position: relative;
+  width: 45%;
+}
+.unm {
+  position: absolute;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  left: 70px;
+  bottom: 200px;
+}
+.unm h1 {
+  font-size: 2.4em;
+  max-width: 500px;
+  line-height: 1.2;
+}
+.unm p {
+  font-size: 1em;
+  line-height: 1.8;
+  max-width: 450px;
+}
+/* SIXTH PAGE */
+.sixth-page {
+  padding: 7em 0 2em;
   background-image: url(images/f9/f94.jpg);
   background-size: cover;
   background-position: center;
 }
-.five {
+.six {
   width: fit-content;
   margin-left: 2.5em;
 }
@@ -195,17 +235,18 @@ img {
   margin-bottom: 2em;
 }
 
+/* SEVENTH PAGE */
 /* SIXTH PAGE */
-.six {
+.seven {
   height: 85vh;
 }
-.six img {
+.seven img {
   height: 100%;
 }
 .black {
   background-color: black;
   width: 100%;
-  padding: 4em;
+  padding: 3em 4em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -213,7 +254,6 @@ img {
 .black p {
   font-size: 0.9em;
 }
-
 /* FINAL PAGE */
 .final-page {
   background-color: black;
